@@ -1,37 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AlgoBlog
+
+AlgoBlog is a decentralized blog application built on the Algorand blockchain platform. This project aims to create a transparent, secure, and uncensored content sharing platform.
+
+## Problem Solving
+
+In today's digital age, controlling content and user privacy on traditional platforms is becoming a concern. AlgoBlog addresses these challenges by:
+
+- Decentralizing content storage and management
+- Ensuring the transparency and immutability of data
+- Empowering users to control their content
+- Creating a fair incentive system for content creators
+
+## Main Features
+
+- Login with Algorand wallet (Pera Wallet)
+- Create and post articles
+- View other people's articles
+- Interact with articles (like, comment, repost)
+- Send tip money to the author of the article
+
+## Tech Stack
+
+- **Frontend**: Next.js, React, TailwindCSS
+- **Blockchain**: Algorand
+- **Wallet Integration**: AlgoSDK, @txnlab/use-wallet-react
+- **Styling**: TailwindCSS
+- **Icons**: React Icons
 
 ## Getting Started
 
-First, run the development server:
+1. Clone repository:
+   ```
+   git clone https://github.com/anhphamrs/algo-blog.git
+   ```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. Install dependencies:
+   ```
+   npm install
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Run the development server:
+   ```
+   npm run dev
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Contribution
 
-## Learn More
+We welcome any contributions to the AlgoBlog project. Please read `CONTRIBUTING.md` for more details on the contribution process.
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-"# algo-blog" 
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
